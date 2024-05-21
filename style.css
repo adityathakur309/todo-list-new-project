@@ -9,9 +9,9 @@
 body{
 display: flex;
 justify-content: center;
-align-items: center;
+
 height: 100vh;
-padding: 0px 1rem;
+padding: 100px 1rem;
 background: linear-gradient(to right, rgb(255, 0, 98,0.8) , rgb(195, 0, 255,0.7));
 }
 .container{

@@ -49,11 +49,12 @@ let removeData =(e) => {
    if(localData.includes(previousElement.innerHTML)){
    localData =  localData.filter(
         (curr) => {
-            updateData(curr)
+          
              return curr !== previousElement.innerHTML;
              
         }
     )
+    updateData(localData)
     
    }
    
@@ -65,7 +66,6 @@ let removeData =(e) => {
 // end
 // update data on localStorage 
 let updateData =(element) => {
-    localData.push(element)
     localStorage.setItem("TodoItem", JSON.stringify(localData))
 }
 // end 
