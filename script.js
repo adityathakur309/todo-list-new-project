@@ -7,6 +7,7 @@ let localData = [];
 let addData = (e) =>{
     createElement(input.value);
     storeDataLocal();
+    input.value = ""
     
 
 
